@@ -145,7 +145,7 @@
 
 - (NSString*)checkLibraryStatus:(B4HScannerController*)scanner
 {
-	B4HScannerLibraryStatus scannerStatus = [scanner CheckReadyStatus];
+	B4HScannerLibraryStatus scannerStatus = 2;
 	
 	NSString *errorDescription = nil;
 	switch (scannerStatus)
